@@ -1,0 +1,19 @@
+# Build & Compiler Output
+out/
+production/
+bin/
+dist/
+build/
+
+# IDE & Editor Settings
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Node Dependencies & Logs
+node_modules/
+*.log
+
+# Temp files
+*.tmp
