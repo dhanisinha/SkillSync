@@ -4,7 +4,7 @@
 
 ---
 
-## 1. Executive Summary
+1. Executive Summary
 
 In today's fast-paced tech landscape, developers often struggle to find verified mentors, engage in targeted company discussions, and collaborate on real-world projects with clear task breakdown. **SkillSync** bridges this gap by providing an end-to-end platform featuring:
 - **Verified Industry Mentorship**: Smart matching of developers based on verified skills and proficiency levels.
@@ -14,7 +14,7 @@ In today's fast-paced tech landscape, developers often struggle to find verified
 
 ---
 
-## 2. System Architecture Overview
+2. System Architecture Overview
 
 SkillSync is structured into two core tiers:
 1. **Java Core Backend Engine**: Standard Java object-oriented design managing domain entities, validation routines, services, and CLI UI controllers.
@@ -47,14 +47,14 @@ flowchart TD
 
 ---
 
-## 3. Key Modules & Features
+3. Key Modules & Features
 
-### 3.1 User & Mentor Management
+3.1 User & Mentor Management
 - **Skill Profiles**: Developers list programming skills along with proficiency levels (Beginner, Intermediate, Advanced, Expert).
 - **Mentor Verification**: Toggleable mentor flag allowing experienced developers to accept mentees.
 - **Graph Connections**: Scalable structure to manage user follow networks and mentor-mentee relationships.
 
-### 3.2 Corporate Tech Clubs
+3.2 Corporate Tech Clubs
 - Dedicated hubs for leading tech companies:
   - **Google Developer Hub** (Distributed Systems & Cloud Architecture)
   - **Meta Frontend & AR Hub** (React Engine, Next-gen Web UI, WebXR)
@@ -62,18 +62,18 @@ flowchart TD
   - **Microsoft AI & Dev Hub** (Machine Learning, Azure Ecosystem, C#/.NET)
 - **Features**: Discussion posts, upvoting, and verified interview experience reports.
 
-### 3.3 Collaborative Project Discovery & Kanban
+3.3 Collaborative Project Discovery & Kanban
 - **Project Discovery**: Filter projects by required skills, team size, and difficulty level.
 - **Task Boards**: Kanban-style task tracking (*To Do*, *In Progress*, *Completed*) with assignee tagging.
 - **Resource Management**: Link key documentation, repository URLs, and developer guides to specific projects.
 
-### 3.4 Multi-Criteria Search & Filtering
+3.4 Multi-Criteria Search & Filtering
 - Instant, multi-parameter search across verified mentors, projects, and corporate tech clubs.
 - Skill chip selection with real-time dynamic filtering.
 
 ---
 
-## 4. Technology Stack
+4. Technology Stack
 
 | Layer | Technology / Tools |
 | :--- | :--- |
@@ -86,7 +86,7 @@ flowchart TD
 
 ---
 
-## 5. Directory & File Structure
+5. Directory & File Structure
 
 ```
 SkillSync/
@@ -118,11 +118,11 @@ SkillSync/
             └── util/             # Helper Utilities
 ```
 
----
 
-## 6. How to Run the Project
 
-### 6.1 Running the Web Application
+6. How to Run the Project
+
+6.1 Running the Web Application
 ```bash
 # Navigate to the Web frontend directory
 cd SkillSync/SkillSync-Web
@@ -135,7 +135,7 @@ npm run dev
 ```
 Access the application at `http://localhost:3000/`.
 
-### 6.2 Running the Java Core Engine
+6.2 Running the Java Core Engine
 ```bash
 # Navigate to Java source folder
 cd SkillSync/src
@@ -149,7 +149,7 @@ java skillsync.Main
 
 ---
 
-## 7. Future Roadmap
+7. Future Roadmap
 
 1. **RESTful API Backend Integration**: Connect the React frontend to a Spring Boot / Node.js backend.
 2. **Real-Time Chat**: WebSockets integration for direct mentor-mentee messaging.
@@ -157,4 +157,3 @@ java skillsync.Main
 4. **OAuth 2.0 Authentication**: Sign-in with GitHub and LinkedIn integration.
 
 ---
-*Report Generated for SkillSync Repository.*
