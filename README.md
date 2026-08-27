@@ -1,4 +1,4 @@
-SkillSync
+SKILLSYNC
 
 A developer platform and mentorship ecosystem that connects programmers, facilitates skill verification, hosts corporate tech hubs, and enables collaborative open-source project building.
 
@@ -57,6 +57,7 @@ Each hub includes discussion posts, upvoting, and verified interview experience 
 Project Discovery — filter projects by required skills, team size, and difficulty level
 Task Boards — Kanban-style tracking (To Do, In Progress, Completed) with assignee tagging
 Resource Management — link key documentation, repository URLs, and developer guides to specific projects
+
 🔍 Multi-Criteria Search & Filtering
 Instant, multi-parameter search across verified mentors, projects, and corporate tech clubs
 Skill chip selection with real-time dynamic filtering
